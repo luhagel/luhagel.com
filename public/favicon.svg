@@ -1,0 +1,7 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="128" height="128" fill="none"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M45.7829 18L16.1551 81.22H43.8471L30.692 109.29H39.1466L52.3017 81.22H57.0642L57.1606 81.0142H89.6254L76.3739 109.29H84.8284L114.456 46.0703H106.002L92.8081 74.223H55.5808L68.7745 46.0703H60.3199L47.0298 74.4288H27.7923L54.2375 18H45.7829Z" fill="black"/>
+<style>
+    @media (prefers-color-scheme:dark){:root{filter:invert(100%)}}
+  </style>
+</svg>

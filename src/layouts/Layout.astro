@@ -1,0 +1,40 @@
+---
+import '@fontsource/darker-grotesque'
+
+export interface Props {
+	title: string
+	isHome?: boolean
+}
+
+const { title, isHome } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="pt-16 bg-base text-neutral h-screen text-xl">
+		<header class="fixed top-0 h-16 w-screen flex justify-between items-center border-b-2">
+			<div class="px-4">
+				{
+					isHome ? (
+						<h1 class="font-black text-2xl">Luca Hagel</h1>
+					) : (
+						<span class="flex flex-row gap-2 font-black text-2xl">
+							<a href="/">Luca Hagel</a>&verbar;<h1>{title}</h1>
+						</span>
+					)
+				}
+			</div>
+		</header>
+		<slot />
+		<footer class="opacity-60 fixed bottom-0 p-4 flex items-center justify-center w-screen">
+			&copy; 2022 Luca Hagel
+		</footer>
+	</body>
+</html>
