@@ -35,7 +35,7 @@ const { title, isHome, content } = Astro.props;
       </div>
       <!-- <div class="px-4"><a href="/posts">Posts</a></div> -->
     </header>
-    <div class="mx-auto max-w-3xl mt-8">
+    <div class="mx-auto max-w-3xl mt-8 p-4">
       <h1 class="text-3xl font-bold">{content.title}</h1>
       <div class="flex gap-4">
         <p class="italic opacity-60">{content.publishDate}</p>
@@ -50,7 +50,7 @@ const { title, isHome, content } = Astro.props;
         </ul>
       </div>
     </div>
-    <article class="prose lg:prose-xl max-w-3xl mx-auto mt-16">
+    <article class="prose lg:prose-xl max-w-3xl mx-auto mt-16 p-4">
       <slot />
     </article>
     <footer
