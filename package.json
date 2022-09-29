@@ -7,13 +7,17 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier . -w"
   },
   "dependencies": {
     "@fontsource/darker-grotesque": "^4.5.8",
-    "astro": "^1.1.5"
+    "@tailwindcss/typography": "^0.5.7",
+    "astro": "^1.4.0"
   },
   "devDependencies": {
-    "@astrojs/tailwind": "^1.0.0"
+    "@astrojs/tailwind": "^1.0.0",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.5"
   }
 }
