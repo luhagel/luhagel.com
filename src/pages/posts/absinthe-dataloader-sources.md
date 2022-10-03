@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPostLayout.astro"
 title: Absinthe Dataloader Sources
 publishDate: 30 September 2022
-description: Hello world!!! This is an example blog post showcasing some of the cool stuff Astro Cactus theme can do.
+description: Managing dataloader sources for your elixir GraphQL API
 tags: ["elixir", "graphql", "absinthe", "dataloader"]
 ---
 
